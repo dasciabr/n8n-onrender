@@ -28,8 +28,6 @@ services:
         fromDatabase:
           name: n8n-database
           property: password
-      - key: PORT
-        value: 5678
       - key: N8N_LOG_LEVEL
         value: info
       - key: GENERIC_TIMEZONE
