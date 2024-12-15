@@ -38,6 +38,14 @@ services:
         value: br
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
+      - key: N8N_PORT
+        value: 433
+      - key: NODE_VERSION
+        value: 18.17.0
+      - key: N8N_PROTOCOL
+        value: https
+      - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
+        value: true
 
 databases:
   - name: n8n-database
